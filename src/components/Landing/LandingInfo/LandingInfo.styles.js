@@ -1,11 +1,16 @@
 import { styled } from "styled-components"
 
 export const Main = styled.div`
+  padding: 0px 100px;
+`
+
+export const InfoBlock = styled.div`
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 100px;
-  margin-top: 150px;
 `
 
 export const MainText = styled.h2`
@@ -20,4 +25,5 @@ export const MainText = styled.h2`
 export const Description = styled.p`
   font-size: 32px;
   width: 50%;
+  margin: 0;
 `

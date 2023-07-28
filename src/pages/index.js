@@ -10,6 +10,7 @@ import Img from "gatsby-image"
 import { LandingInfo } from "../components/Landing/LandingInfo/LandingInfo"
 import { MainBlock } from "../components/Landing/LandingMainBlock/MainBlock"
 import { LandingImages } from "../components/Landing/LandingImages/LandingImages"
+import { LandingSteps } from "../components/Landing/LandingSteps/LandingSteps"
 
 // const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
@@ -39,6 +40,7 @@ const IndexPage = () => {
       <MainBlock />
       <LandingImages />
       <LandingInfo />
+      <LandingSteps />
     </Layout>
   )
 }
