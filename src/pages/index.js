@@ -6,6 +6,7 @@ import Layout from "../components/Layout/layout"
 import Seo from "../components/seo"
 // import * as S from "../styles/index.styles"
 import Img from "gatsby-image"
+//Components
 import { LandingInfo } from "../components/Landing/LandingInfo/LandingInfo"
 import { MainBlock } from "../components/Landing/LandingMainBlock/MainBlock"
 import { LandingImages } from "../components/Landing/LandingImages/LandingImages"

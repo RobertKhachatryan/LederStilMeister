@@ -6,7 +6,13 @@ export const Main = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 3px solid #964b00;
+  border-bottom: 2px solid #964b00;
+`
+export const Logo = styled.p`
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #964b00;
 `
 
 export const HeaderItemsBlock = styled.div`
