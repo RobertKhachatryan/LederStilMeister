@@ -1,20 +1,20 @@
-import * as React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
+import React from "react"
+// import { graphql } from "gatsby"
 import * as S from "./header.styles"
 import { StaticImage } from "gatsby-plugin-image"
-const Header = ({ siteTitle }) => {
-  const query = graphql`
-    query {
-      allContentfulHeader {
-        nodes {
-          id
-          headerItems
-        }
-      }
-    }
-  `
-  const data = useStaticQuery(query)
-  // console.log(data)
+const Header = () => {
+  // const query = graphql`
+  //   query {
+  //     allContentfulHeader {
+  //       nodes {
+  //         id
+  //         headerItems
+  //       }
+  //     }
+  //   }
+  // `
+  // const data = useStaticQuery(query)
+
   return (
     <S.Main>
       <S.Logo>LSM</S.Logo>
